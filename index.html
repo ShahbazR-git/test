@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/OwlCarousel2-master/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/OwlCarousel2-master/dist/assets/owl.theme.default.min.css">
+  <title>Rentaly</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg position-fixed">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./assets/img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home <i
+                  class="fa-solid fa-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">New: Homepage 1 Dark</a></li>
+                <li><a class="dropdown-item" href="#">New: Homepage 2 Dark</a></li>
+                <li><a class="dropdown-item" href="#">Homepage Main</a></li>
+                <li><a class="dropdown-item" href="#">Homepage 2</a></li>
+                <li><a class="dropdown-item" href="#">Homepage 3</a></li>
+                <li><a class="dropdown-item" href="#">Homepage 4</a></li>
+                <li><a class="dropdown-item" href="#">Homepage 5</a></li>
+                <li><a class="dropdown-item" href="#">Homepage 6</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cars <i
+                  class="fa-solid fa-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Car list 1</a></li>
+                <li><a class="dropdown-item" href="#">Car list 1 Dark</a></li>
+                <li><a class="dropdown-item" href="#">Car list 2</a></li>
+                <li><a class="dropdown-item" href="#">Car list 1 Dark</a></li>
+                <li><a class="dropdown-item" href="#">Car Single</a></li>
+                <li><a class="dropdown-item" href="#">Car Single Dark</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Booking</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Account <i
+                  class="fa-solid fa-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Dashbord</a></li>
+                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                <li><a class="dropdown-item" href="#">My Orders</a></li>
+                <li><a class="dropdown-item" href="#">My Favorite Cars</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages <i
+                  class="fa-solid fa-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#">Login</a></li>
+                <li><a class="dropdown-item" href="#">Register</a></li>
+                <li><a class="dropdown-item" href="#">Page 404</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News <i
+                  class="fa-solid fa-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li class="second-under"><a class="dropdown-item" href="#">News Standart</a>
+                  <ul class="dropdown-menu under">
+                    <li><a class="dropdown-item" href="#">Right Sidebar</a></li>
+                    <li><a class="dropdown-item" href="#">Left Sidebar</a></li>
+                    <li><a class="dropdown-item" href="#">No Sidebar</a></li>
+                  </ul>
+                </li>
+                <li class="third-under"><a class="dropdown-item" href="#">News Grid</a>
+                  <ul class="dropdown-menu under2">
+                    <li><a class="dropdown-item" href="#">Right Sidebar</a></li>
+                    <li><a class="dropdown-item" href="#">Left Sidebar</a></li>
+                    <li><a class="dropdown-item" href="#">No Sidebar</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Elements <i
+                  class="fa-solid fa-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Preloader</a></li>
+                <li><a class="dropdown-item" href="#">Icon Boxes</a></li>
+                <li><a class="dropdown-item" href="#">Badge</a></li>
+                <li><a class="dropdown-item" href="#">Counters</a></li>
+                <li><a class="dropdown-item" href="#">Gallery Popup</a></li>
+                <li><a class="dropdown-item" href="#">Icons Elegant</a></li>
+                <li><a class="dropdown-item" href="#">Icons Etline</a></li>
+                <li><a class="dropdown-item" href="#">Icons Font Awesome</a></li>
+                <li><a class="dropdown-item" href="#">Map</a></li>
+                <li><a class="dropdown-item" href="#">Modal</a></li>
+                <li><a class="dropdown-item" href="#">Popover</a></li>
+                <li><a class="dropdown-item" href="#">Tabs</a></li>
+                <li><a class="dropdown-item" href="#">Tooltips</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-success" type="submit">Sign In</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- =============================================================================================Header End==================================================================================================== -->
+  <main>
+    <section class="hero">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="mb-3">Explore The world with comfortable car</h1>
+            <p class="lead">Embark on unforgettable adventures and discover the world in unparalleled comfort and style
+              with our fleet of exceptionally comfortable cars.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="first-class-services col-md-3 col-sm-12">
+            <div class="icon-text d-flex align-items-center">
+              <i class="fa-solid fa-trophy me-1"></i>
+              <h4>First class services</h4>
+            </div>
+            <p class="ps-5">Est dolore ut laboris eu enim eu veniam nostrud esse laborum duis</p>
+          </div>
+          <div class="road-assistance col-md-3 col-sm-12">
+            <div class="icon-text d-flex align-items-center">
+              <i class="fa-sharp fa-solid fa-road me-1"></i>
+              <h4> 24/7 road assistance</h4>
+            </div>
+            <p class="ps-5">Est dolore ut laboris eu enim eu veniam nostrud esse laborum duis</p>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button button type="button" class="btn btn-lg px-4 me-md-2">Choose a car</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="rentaly-second">
+      <div class="container">
+        <div class="row">
+          <div class="text-box">
+            <h2>Our Vehicle Fleet</h2>
+            <p>Driving your dreams to reality with an exquisite fleet of versatile vehicles for <br> unforgettable
+              journeys.
+            </p>
+          </div>
+          <div class="owl-carousel owl-theme">
+            <div class="col-sm-12 col-12">
+              <div class="item">
+                <div class="card data" data-aos="zoom-in-up">
+                  <img src="./assets/img/jeep-renegade.jpg" class="card-img-top p-2">
+                  <div class="card-body">
+                    <div class="card-title-name d-flex align-items-center justify-content-between">
+                      <h5 class="my-3">Jeep Renagade </h5>
+                      <i class="fa-solid fa-heart"><span>74</span></i>
+                    </div>
+                    <div class="card-text">
+                      <div class="iconbox d-flex align-items-center">
+                        <img src="./assets/img/1-green.svg"><span>5</span>
+                        <img src="./assets/img/2-green.svg"><span>2</span>
+                        <img src="./assets/img/3-green.svg"><span>4</span>
+                        <img src="./assets/img/4-green.svg"><span>SUV</span>
+                      </div>
+                      <hr>
+                    </div>
+                    <div class="button-combo d-flex align-items-center justify-content-between">
+                      <p>Daily rate from <br><span>$265</span></p>
+                      <a href="#" class="btn btn-primary">Rent Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="card" data-aos="zoom-in-up">
+                <img src="./assets/img/bmw-m5.jpg" class="card-img-top p-2">
+                <div class="card-body">
+                  <div class="card-title-name d-flex align-items-center justify-content-between">
+                    <h5 class="my-3">BMW M2 </h5>
+                    <i class="fa-solid fa-heart"><span>36</span></i>
+                  </div>
+                  <div class="card-text">
+                    <div class="iconbox d-flex align-items-center">
+                      <img src="./assets/img/1-green.svg"><span>5</span>
+                      <img src="./assets/img/2-green.svg"><span>2</span>
+                      <img src="./assets/img/3-green.svg"><span>4</span>
+                      <img src="./assets/img/4-green.svg"><span>Sedan</span>
+                    </div>
+                    <hr>
+                  </div>
+                  <div class="button-combo d-flex align-items-center justify-content-between">
+                    <p>Daily rate from <br><span>$244</span></p>
+                    <a href="#" class="btn btn-primary">Rent Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card" data-aos="zoom-in-up">
+                <img src="./assets/img/ferrari-enzo.jpg" class="card-img-top p-2">
+                <div class="card-body">
+                  <div class="card-title-name d-flex align-items-center justify-content-between">
+                    <h5 class="my-3">Ferrari Enzo </h5>
+                    <i class="fa-solid fa-heart"><span>85</span></i>
+                  </div>
+                  <div class="card-text">
+                    <div class="iconbox d-flex align-items-center">
+                      <img src="./assets/img/1-green.svg"><span>5</span>
+                      <img src="./assets/img/2-green.svg"><span>2</span>
+                      <img src="./assets/img/3-green.svg"><span>4</span>
+                      <img src="./assets/img/4-green.svg"><span>Exotic Car</span>
+                    </div>
+                    <hr>
+                  </div>
+                  <div class="button-combo d-flex align-items-center justify-content-between">
+                    <p>Daily rate from <br><span>$167</span></p>
+                    <a href="#" class="btn btn-primary">Rent Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card" data-aos="zoom-in-up">
+                <img src="./assets/img/ferrari-enzo.jpg" class="card-img-top p-2">
+                <div class="card-body">
+                  <div class="card-title-name d-flex align-items-center justify-content-between">
+                    <h5 class="my-3">Ferrari Enzo </h5>
+                    <i class="fa-solid fa-heart"><span>85</span></i>
+                  </div>
+                  <div class="card-text">
+                    <div class="iconbox d-flex align-items-center">
+                      <img src="./assets/img/1-green.svg"><span>5</span>
+                      <img src="./assets/img/2-green.svg"><span>2</span>
+                      <img src="./assets/img/3-green.svg"><span>4</span>
+                      <img src="./assets/img/4-green.svg"><span>Exotic Car</span>
+                    </div>
+                    <hr>
+                  </div>
+                  <div class="button-combo d-flex align-items-center justify-content-between">
+                    <p>Daily rate from <br><span>$167</span></p>
+                    <a href="#" class="btn btn-primary">Rent Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div> -->
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-12">
+              
+          </div>
+         
+
+        </div>
+      </div>
+    </section>
+    <section class="testimonial">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 p-0">
+          <div class="woman-driver" data-aos="zoom-in-right"></div>
+        </div>
+
+        <div class="text col-12 col-sm-12 col-md-6" data-aos="zoom-in-left">
+          <h1 class="px-5 pt-5">Only Quality For Clients</h1>
+          <div class="my-5 px-5">
+            <button class="btn btn-diff px-3">LUXURY</button>
+            <button class="btn ms-3 px-3">COMFORT</button>
+            <button class="btn ms-3 px-3">PRESTIGE</button>
+          </div>
+          <p class="col-10">
+            We offer a meticulously curated collection of the most
+            sought-after luxury vehicles on the market. Whether you prefer the
+            sporty allure of a high-performance sports car, the sophistication
+            of a sleek and luxurious sedan, or the versatility of a premium
+            SUV, we have the perfect car to match your discerning taste.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="explore-the-world">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <h1>Explore the world with comfortable car </h1>
+          </div>
+          <div class="col-md-3 col-sm-4 .col-12">
+            <i class="fa-solid fa-trophy p-4"></i>
+            <h4>First Class Services</h4>
+            <p>Where luxury meets exceptional care, creating unforgettable moments and exceeding your every expectation.
+            </p>
+          </div>
+          <div class="col-md-3 col-sm-4 .col-12">
+            <i class="fa-sharp fa-solid fa-road p-4"></i>
+            <h4>First Class Services</h4>
+            <p>Where luxury meets exceptional care, creating unforgettable moments and exceeding your every expectation.
+            </p>
+          </div>
+          <div class="col-md-3 col-sm-4 .col-12">
+            <i class="fa-sharp fa-solid fa-map-pin p-4"></i>
+            <h4>First Class Services</h4>
+            <p>Where luxury meets exceptional care, creating unforgettable moments and exceeding your every expectation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blockquote">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3">
+            <div class="image-text">
+              <div class="text">
+                <i class="fa-solid fa-quote-right mb-1"></i>
+                <h5>Excellent Service! Car Rent Service!</h5>
+                <blockquote>
+                  I have been using Rentaly for my Car Rental needs for over 5
+                  years now. I have never had any problems with their service.
+                  Their customer support is always responsive and helpful. I
+                  would recommend Rentaly to anyone looking for a reliable Car
+                  Rental provider.
+                </blockquote>
+                <span>Stepanie Hutchkiss</span>
+              </div>
+              <img src="./assets/img/1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3">
+            <div class="image-text">
+              <div class="text">
+                <i class="fa-solid fa-quote-right mb-1"></i>
+                <h5>Excellent Service! Car Rent Service!</h5>
+                <blockquote>
+                  I have been using Rentaly for my Car Rental needs for over 5
+                  years now. I have never had any problems with their service.
+                  Their customer support is always responsive and helpful. I
+                  would recommend Rentaly to anyone looking for a reliable Car
+                  Rental provider.
+                </blockquote>
+                <span>Stepanie Hutchkiss</span>
+              </div>
+              <img src="./assets/img/2.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3">
+            <div class="image-text">
+              <div class="text">
+                <i class="fa-solid fa-quote-right mb-1"></i>
+                <h5>Excellent Service! Car Rent Service!</h5>
+                <blockquote>
+                  I have been using Rentaly for my Car Rental needs for over 5
+                  years now. I have never had any problems with their service.
+                  Their customer support is always responsive and helpful. I
+                  would recommend Rentaly to anyone looking for a reliable Car
+                  Rental provider.
+                </blockquote>
+                <span>Stepanie Hutchkiss</span>
+              </div>
+              <img src="./assets/img/3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="latest-news">
+      <div class="container">
+        <div class="latest mt-5">
+          <h1 class="text-center">Latest News</h1>
+          <p class="text-center mb-5">Breaking news, fresh perspectives, and in-depth coverage - stay ahead with our
+            <br>
+            latest news, insights, and
+            analysis.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="ten-mar">
+              <div class="imgbox">
+                <div class="datebox">
+                  <div class="day">10</div>
+                  <div class="month">MAR</div>
+                </div>
+                <img src="./assets/img/pic-blog-1.jpg" alt="">
+              </div>
+              <div class="textbox">
+                <h5>Enjoy Best Travel Experience</h5>
+                <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore
+                  ad laborum consectetur.</p>
+                <div class="btn">Read More</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="ten-mar">
+              <div class="imgbox">
+                <div class="datebox">
+                  <div class="day">12</div>
+                  <div class="month">MAR</div>
+                </div>
+                <img src="./assets/img/pic-blog-2.jpg" alt="">
+              </div>
+              <div class="textbox">
+                <h5>The Future of Car Rent</h5>
+                <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore
+                  ad laborum consectetur.</p>
+                <div class="btn">Read More</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="ten-mar">
+              <div class="imgbox">
+                <div class="datebox">
+                  <div class="day">14</div>
+                  <div class="month">MAR</div>
+                </div>
+                <img src="./assets/img/pic-blog-3.jpg" alt="">
+              </div>
+              <div class="textbox">
+                <h5>Holiday Tips For Backpacker</h5>
+                <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore
+                  ad laborum consectetur.</p>
+                <div class="btn">Read More</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="action">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="text-box text-center">
+              <h5>15425</h5>
+              <h6>Completed Orders</h6>
+              <p>Lorem ipsum adipisicing officia in adipisicing do velit sit tempor ea consectetur.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="text-box text-center">
+              <h5>8745</h5>
+              <h6>Happy Customers</h6>
+              <p>Lorem ipsum adipisicing officia in adipisicing do velit sit tempor ea consectetur.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="text-box text-center">
+              <h5>235</h5>
+              <h6>Vehicles Fleet</h6>
+              <p>Lorem ipsum adipisicing officia in adipisicing do velit sit tempor ea consectetur.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="text-box text-center">
+              <h5>15</h5>
+              <h6>Years Experience</h6>
+              <p>Lorem ipsum adipisicing officia in adipisicing do velit sit tempor ea consectetur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="marquee">
+      <div class="row">
+        <marquee>
+          <div class="carousel d-flex align-items-center">
+            <p>Exotic Cars</p>
+            <div class="box"></div>
+            <p>Station Wagon</p>
+            <div class="box"></div>
+            <p>SUV</p>
+            <div class="box"></div>
+            <p>Sedan</p>
+            <div class="box"></div>
+            <p>Sport Cars</p>
+            <div class="box"></div>
+            <p>Truck</p>
+            <div class="box"></div>
+            <p>Minivans</p>
+            <div class="box"></div>
+            <p>Hatchback</p>
+            <div class="box"></div>
+            <p>Crossover</p>
+            <div class="box"></div>
+            <p>Convertible</p>
+            <div class="box"></div>
+            <p>Coupe</p>
+          </div>
+        </marquee>
+      </div>
+    </section>
+  </main>
+  <!-- =============================================================================================Main End==================================================================================================== -->
+
+  <footer class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3 mb-3">
+          <h5>About Rentaly</h5>
+          <p>Where quality meets affordability. We understand the importance of a smooth and enjoyable journey without
+            the burden of excessive costs. That's why we have meticulously crafted our offerings to provide you with
+            top-notch vehicles at minimum expense.</p>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Contact Info</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><i class="fa-solid fa-location-dot"></i> 08 W
+                36th St, New York, NY 10001</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><i class="fa-solid fa-phone"></i> +1 333
+                9296</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><i class="fa-solid fa-envelope"></i>
+                contact@example.com</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><i class="fa-solid fa-file"></i> Download
+                Brochure</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3 mb-3">
+          <h5>Quick Links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link ">About</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link ">Blog</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link ">Careers</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link ">News</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link ">Partners</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 offset-md-1 mb-3 social-network">
+          <h5>Social Network</h5>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2 justify-content-around">
+            <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+            <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+            <div class="icon"><i class="fa-brands fa-pinterest"></i></div>
+            <div class="icon"><i class="fa-solid fa-rss"></i></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2023 Company - Rentaly by Designesia</p>
+        <p>Terms & Conditions</p>
+      </div>
+    </div>
+
+  </footer>
+  <!-- =============================================================================================Footer End==================================================================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./assets/jquery.min.js"></script>
+  <script src="./assets/OwlCarousel2-master/dist/owl.carousel.min.js"></script>
+  <script>
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 2,
+        },
+        1000: {
+          items: 3,
+        },
+      },
+    });
+  </script>
+</body>
+
+</html>
